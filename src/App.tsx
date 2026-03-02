@@ -9,6 +9,7 @@ import BlogPost from './pages/BlogPost';
 import Login from './pages/Login';
 import ProtectedRoute from "./components/ProtectedRoute";
 import Admin from "./pages/Admin";
+import Navbar from "./components/Navbar";
 
 function App() {
  // const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
    <AuthProvider>
     <BrowserRouter>
     <Routes>
+      <Navbar/>
       <Route path = "/blog" element = {<BlogIndex/>}/>
       <Route path = "/blog/:slug" element = {<BlogPost/>}/>
       <Route path = "/logib" element = {<Login/>}/>
