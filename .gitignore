@@ -1,3 +1,16 @@
+steps I careated this project:
+
+1️⃣  created a new React + TypeScript project using Vite and installed React Router DOM for routing.
+2️⃣ set up a clean folder structure with pages, components, context, and lib folders.
+3️⃣  created a mock blog data file (posts.ts) containing an array of post objects with id, slug, title, and content.
+4️⃣  configured routing in App.tsx with routes for /blog, /blog/:slug, /login, and /admin.
+5️⃣  built the Blog Index page to display all posts and linked each one to its dynamic slug route.
+6️⃣  implemented the dynamic Blog Post page using useParams() to read the slug and display the correct post.
+7️⃣  created an AuthContext to manage authentication state with isAuthenticated, login(), and logout().
+8️⃣  built a Login page that updates authentication state and redirects users after logging in.
+9️⃣  created a ProtectedRoute component to restrict access to the /admin page and redirect unauthenticated users.
+🔟 Finally,  conditionally rendered Navbar links based on login status and optionally added page transitions using Framer Motion.
+***********************
 # Logs
 logs
 *.log
