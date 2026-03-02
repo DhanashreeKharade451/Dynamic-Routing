@@ -7,6 +7,8 @@ import { AuthProvider } from './context/AuthContext';
 import BlogIndex from './pages/BlogIndex';
 import BlogPost from './pages/BlogPost';
 import Login from './pages/Login';
+import ProtectedRoute from "./components/ProtectedRoute";
+import Admin from "./pages/Admin";
 
 function App() {
  // const [count, setCount] = useState(0)
