@@ -5,7 +5,7 @@ export interface Post {
   content: string;
 }
 
-export const post : Post[] = [
+export const posts : Post[] = [
     {
          id: 1,
   slug: "my-first-post",
