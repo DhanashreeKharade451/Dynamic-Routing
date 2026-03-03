@@ -7,7 +7,7 @@ const {isAuthenticated, logout} = useAuth();
 
     return (
         <nav style={{ marginBottom: "20px" }}>
-            <Link to="./blog"> Blog </Link> |{" "}
+            <Link to="/blog"> Blog </Link> |{" "}
 
             {!isAuthenticated ? (
         <Link to="/login">Log In</Link>
