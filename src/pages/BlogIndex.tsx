@@ -8,7 +8,7 @@ return(
         {
             posts.map((post) => (
                 <div key={post.id}> 
-                  <Link to = {`/blog/ ${post.slug}`}>
+                  <Link to = {`/blog/${post.slug}`}>
                   <h2>{post.title}</h2>
                   </Link>
                 </div>
